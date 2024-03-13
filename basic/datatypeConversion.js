@@ -1,38 +1,38 @@
-"use strict"; // treat all JS code as newer version
-
-// alert(3   +  3) //we are using browser, not node.js
-
-
-console.log(3+30);
-
-console.log("Hi Ahsan")
-
-// for documentation:- tc39/mdn
-
-let name="ahsan" //string
-let age =20; //number
-let islogin= true //boolean
+// let score = 33;
+// let score = "33abc";
+let score = "ahsan";
 
 
-// number
-// bigint
-// string=>""
-// boolean=>true/false
-// null=> standalone value
-// undefined
-// symbol=>unique
+// console.log(typeof score);
+// console.log(typeof (score));
 
 
-//object
+let valueInNumber =Number(score)
 
-console.log(typeof "ahsan");  //  string
-console.log(typeof 23);  // number
-
-console.log(typeof true);  // boolean
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 
-console.log(typeof undefined); // undefined
-console.log(typeof null);   // object
+// "33" => 33
+// "33abc" => NaN
+// true => 1; false => 0;
+
+
+// let isLoggedIn =1
+// let isLoggedIn =0
+// let isLoggedIn =""
+let isLoggedIn ="ahsan"
+let booleanIsLoggedIn =Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn);
+
+
+// 1 => true; 0 => false
+// "" => false
+// "ahsan" => true
 
 
 
+let sameNumber =47
+let stringNumber = String(sameNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
